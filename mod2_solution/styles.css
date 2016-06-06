@@ -9,14 +9,11 @@ h1 {
     text-align: center;
 }
 
-div {
-    background-color: #E0E0E0;
-}
-
 div.menu-item{
     position: relative;
     margin: 10px 10px 10px 10px;
     border: 2px solid #1F1F1F;
+    background-color: #E0E0E0;
 }
 
 div.menu-title{
@@ -44,9 +41,13 @@ p.menu-text{
     padding: 10px;
 }
 
+.container{
+    margin: auto;
+}
+
 @media screen and (min-width: 992px){
     div.menu-item{
-        width: 30%;
+        width: 31%;
         float: left;
     }
 }
